@@ -1,0 +1,26 @@
+.blockquote-type-2{
+  position: relative;
+  font-size: 22px;
+  padding: 50px;
+  border-radius: 10px;
+  background: linear-gradient(155deg, var(--primary-color), var(--secondary-color));
+  color: $white;
+  font-weight: 600;
+  @media(max-width: $md){
+    font-size: 18px;
+    padding: 35px;
+  }
+  .icon-wrapper{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    i{
+      color: $white;
+      opacity: 0.3;
+      font-size: 72px;
+      @media(max-width: $md){
+        font-size: 56px;
+      }
+    }
+  }
+}

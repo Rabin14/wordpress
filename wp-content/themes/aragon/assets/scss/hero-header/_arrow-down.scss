@@ -1,0 +1,61 @@
+.hero-header-kc{
+  .arrow-down{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    cursor: pointer;
+    .arrow-down-title{
+      transition: all .3s ease-in-out;
+      font-size: 14px;
+      color: rgba($white,0.8);
+      letter-spacing: 0.7px;
+      position: relative;
+    }
+    .arrow-down-title:after{
+      content: ' ';
+      left: 0;
+      top: 50%;
+      position: absolute;
+      width: 0;
+      transition: all .3s ease-in-out;
+      height: 1px;
+      background-color: $white;
+      opacity: 0;
+    }
+    i{
+      bottom: 0;
+      position: absolute;
+      font-size: 13px;
+      line-height: 1;
+      color: $white;
+      transition: all .3s ease-in-out;
+      animation: angle_down 3s linear infinite;
+    }
+    @keyframes angle_down {
+      0% {
+        opacity: 0.8;
+        transform: translateY(0px);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+    }
+  }
+  .arrow-down:hover{
+    .arrow-down-title{
+      color: $white;
+    }
+    .arrow-down-title:after{
+      width: 100%;
+      opacity: 1;
+    }
+  }
+}

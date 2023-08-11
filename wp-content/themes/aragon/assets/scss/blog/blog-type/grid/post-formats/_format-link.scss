@@ -1,0 +1,11 @@
+.format-link {
+  .post-title{
+    i{
+      color: var(--primary-color);
+      margin-right: 10px;
+    }
+    a{
+      color: var(--primary-color) !important;
+    }
+  }
+}

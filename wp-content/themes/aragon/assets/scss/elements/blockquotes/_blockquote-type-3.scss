@@ -1,0 +1,10 @@
+.blockquote-type-3 {
+  font-size: 18px;
+  color: var(--heading-color);
+  font-weight: 500;
+  padding: 15px 0 15px 20px;
+  border-left: 5px solid var(--primary-color);
+  @media(max-width: $md) {
+    font-size: 16px;
+  }
+}

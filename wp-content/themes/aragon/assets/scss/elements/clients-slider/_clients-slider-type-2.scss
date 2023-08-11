@@ -1,0 +1,15 @@
+.clients-slider-type-2 {
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .swiper-slide {
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 15px;
+    border-left: 1px solid var(--default-border);
+    height: 350px;
+  }
+}

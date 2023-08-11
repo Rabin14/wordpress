@@ -1,0 +1,36 @@
+:root{
+  --accordion-item-background: #333333;
+}
+
+.accordions-type-3 {
+  .accordion-item {
+    margin-bottom: 15px;
+    .accordion-header {
+      padding: 20px 25px;
+      cursor: pointer;
+      background-color: var(--accordion-item-background);
+      .title {
+        color: $white;
+        width: 100%;
+        font-weight: 600;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .title:after {
+        content: '+';
+        font-size: 15px;
+        font-weight: 600;
+        color: $white;
+        margin-left: 15px;
+      }
+    }
+    .accordion-body {
+      display: none;
+      margin-top: 15px;
+    }
+  }
+}
