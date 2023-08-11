@@ -1,0 +1,16 @@
+.social-icons-type-1 {
+  .social-box {
+    width: 31px;
+    height: 31px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+    transition: all .2s ease-in-out;
+    margin: 5px 10px 5px 0;
+  }
+  .social-box:hover {
+    border-radius: 100%;
+  }
+}

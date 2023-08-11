@@ -1,0 +1,42 @@
+.service-type-4{
+  padding: 35px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  @media(max-width: $sm){
+    padding: 25px 20px;
+  }
+  .icon-wrapper{
+    margin-bottom: 30px;
+    @media(max-width: $sm){
+      margin-bottom: 15px;
+    }
+    i{
+      color: var(--primary-color);
+      font-size: 36px;
+      opacity: 0.7;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .title{
+    margin-bottom: 15px;
+    font-weight: 500;
+    @media(max-width: $sm){
+      margin-bottom: 10px;
+    }
+  }
+  .content{
+    font-size: 16px;
+    @media(max-width: $sm){
+      font-size: 14px;
+    }
+  }
+}
+.service-type-4:hover{
+  box-shadow: 0 5px 50px rgba(33,33,33,0.1);
+  background-color: $white;
+  .icon-wrapper{
+    i{
+      opacity: 1;
+    }
+  }
+}

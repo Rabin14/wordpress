@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> prefix="og: http://ogp.me/ns#">
 <head>
+
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head(); ?>
+
 </head>
 <?php global $is_IE ?>
 <body id="top" <?php body_class(); ?>>

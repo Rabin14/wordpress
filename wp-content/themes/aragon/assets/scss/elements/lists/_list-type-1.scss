@@ -1,0 +1,25 @@
+.list-type-1 {
+  li {
+    .li-item {
+      font-weight: 600;
+      position: relative;
+      display: flex;
+      align-items: center;
+      @media(max-width: $md){
+        font-size: 14px;
+      }
+    }
+    .li-item:before {
+      content: ' ';
+      width: 8px;
+      height: 8px;
+      opacity: 0.6;
+      background-color: var(--primary-color);
+      z-index: -1;
+      margin-right: 15px;
+    }
+  }
+  li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}

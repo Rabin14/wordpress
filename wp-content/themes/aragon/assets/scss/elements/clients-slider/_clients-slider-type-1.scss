@@ -1,0 +1,11 @@
+.clients-slider-type-1 {
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .swiper-slide {
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+  }
+}

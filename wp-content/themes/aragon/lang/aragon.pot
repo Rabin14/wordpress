@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aragon\n"
+"POT-Creation-Date: 2018-09-18 18:46+0300\n"
+"PO-Revision-Date: 2018-09-18 18:46+0300\n"
+"Last-Translator: \n"
+"Language-Team: https://themeforest.net/user/jd-themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ../../../themes/aragon\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404!"
+msgstr ""
+
+#: 404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:12
+msgid "The page you were looking for could not be found"
+msgstr ""
+
+#: 404.php:16 layouts/notfound.php:14
+msgid "Back to homepage"
+msgstr ""
+
+#: comments.php:24 jdthemes/functions/ajax-comments.php:153
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:28 jdthemes/functions/ajax-comments.php:157
+msgid "Edit"
+msgstr ""
+
+#: comments.php:33 jdthemes/functions/ajax-comments.php:162
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:47
+msgid "Reply"
+msgstr ""
+
+#: comments.php:67 jdthemes/functions/localize-js.php:7
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:71
+msgid "Name"
+msgstr ""
+
+#: comments.php:75
+msgid "Email"
+msgstr ""
+
+#: comments.php:80
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:82
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:83
+msgid "Leave comment:"
+msgstr ""
+
+#: comments.php:84
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:89 jdthemes/functions/ajax-comments.php:83
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:93
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: comments.php:96
+msgid "Log out of this account"
+msgstr ""
+
+#: jdthemes/acf/acf-config.php:13 jdthemes/acf/acf-config.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: jdthemes/functions/ajax-comments.php:26
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: jdthemes/functions/ajax-comments.php:96
+msgid "Error: please fill all required fields"
+msgstr ""
+
+#: jdthemes/functions/ajax-comments.php:100
+msgid "Error: incorrect email"
+msgstr ""
+
+#: jdthemes/functions/ajax-comments.php:108
+msgid "Error: please type comment "
+msgstr ""
+
+#: jdthemes/functions/general.php:129
+msgid "Home"
+msgstr ""
+
+#: jdthemes/functions/general.php:156 jdthemes/functions/general.php:340
+#: jdthemes/functions/general.php:348 jdthemes/functions/general.php:355
+#: jdthemes/functions/general.php:362 jdthemes/functions/general.php:369
+msgid "Archives"
+msgstr ""
+
+#: jdthemes/functions/general.php:328
+msgid "Tag"
+msgstr ""
+
+#: jdthemes/functions/general.php:333 jdthemes/functions/general.php:724
+#: jdthemes/functions/general.php:739
+msgid "Blog"
+msgstr ""
+
+#: jdthemes/functions/general.php:387
+msgid "Page"
+msgstr ""
+
+#: jdthemes/functions/general.php:394
+msgid "Search results for: "
+msgstr ""
+
+#: jdthemes/functions/general.php:749
+msgid "Search"
+msgstr ""
+
+#: jdthemes/functions/general.php:753
+msgid "404 Page not found"
+msgstr ""
+
+#: jdthemes/functions/general.php:769
+msgid "Author - "
+msgstr ""
+
+#: jdthemes/functions/localize-js.php:6
+msgid "Loading"
+msgstr ""
+
+#: jdthemes/functions/navigation.php:7
+msgid "Primary Menu"
+msgstr ""
+
+#: jdthemes/functions/sidebars.php:6
+msgid "Blog Sidebar"
+msgstr ""
+
+#: jdthemes/functions/sidebars.php:8
+msgid "Sidebar on posts page"
+msgstr ""
+
+#: jdthemes/functions/sidebars.php:15
+msgid "Footer Sidebar"
+msgstr ""
+
+#: jdthemes/functions/sidebars.php:17
+msgid "Sidebar on footer"
+msgstr ""
+
+#: layouts/blog-types/list/post-formats/format-aside.php:42
+#: layouts/blog-types/list/post-formats/format-gallery.php:61
+#: layouts/blog-types/list/post-formats/format-image.php:39
+#: layouts/blog-types/list/post-formats/format-link.php:44
+#: layouts/blog-types/list/post-formats/format-standard.php:42
+#: layouts/blog-types/list/post-formats/format-video.php:59
+msgid "Read More"
+msgstr ""
+
+#: layouts/notfound.php:6
+msgid "Not found"
+msgstr ""
+
+#: layouts/notfound.php:7
+msgid "."
+msgstr ""
+
+#: layouts/notfound.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: layouts/notfound.php:22
+msgid "No results were found for the requested page."
+msgstr ""
+
+#: layouts/single-post-content.php:78
+msgid "Recent Posts:"
+msgstr ""
+
+#: layouts/single-post-content.php:180
+msgid "by "
+msgstr ""
+
+#: layouts/single-post-content.php:204 page.php:14
+msgid "Comment:"
+msgid_plural "Comments:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchform.php:4
+msgid "Enter keyword"
+msgstr ""
+
+#: template-parts/navigation-menu.php:36
+msgid "Logo"
+msgstr ""
+
+#: template-parts/navigation-menu.php:81
+msgid "Please register Top Navigation from Appearance > Menus"
+msgstr ""
+
+#: template-parts/single-post.php:53 template-parts/single-project.php:44
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/single-project.php:90
+msgid "Previous project"
+msgstr ""
+
+#: template-parts/single-project.php:96
+msgid "Next project"
+msgstr ""

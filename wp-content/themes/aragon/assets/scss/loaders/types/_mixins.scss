@@ -1,0 +1,24 @@
+
+@mixin global-bg() {
+  background-color: var(--preloader-items-color);
+}
+
+@mixin global-animation() {
+  animation-fill-mode: both;
+}
+
+@mixin balls() {
+  @include global-bg();
+  width: var(--ball-size-preloader);
+  height: var(--ball-size-preloader);
+  border-radius: 100%;
+  margin: var(--margin-preloader);
+}
+
+@mixin lines() {
+  @include global-bg();
+  width: var(--line-width-preloader);
+  height: var(--line-height-preloader);
+  border-radius: 2px;
+  margin: var(--margin-preloader);
+}

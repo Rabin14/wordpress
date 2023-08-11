@@ -1,0 +1,92 @@
+.team-member-type-3 {
+  position: relative;
+  z-index: 2;
+  .description-box {
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    @media(max-width: $lg){
+      padding: 20px;
+    }
+    .content-wrapper {
+      padding: 40px 30px;
+      width: 100%;
+      border: 1px solid var(--default-border);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all .4s ease-in-out;
+      @media(max-width: $lg){
+        padding: 25px;
+      }
+      .name {
+        font-weight: 500;
+        color: $white;
+        letter-spacing: 0.5px;
+        margin-bottom: 15px;
+        @media(max-width: $sm){
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+      }
+      .position {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+      }
+      .social-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .social-box {
+          width: 35px;
+          height: 35px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 7px;
+          transition: all .3s ease-in-out;
+          i {
+            color: $white;
+            font-size: 12px;
+          }
+        }
+        .social-box:hover {
+          transform: scale(0.9);
+        }
+        .social-box:not(:last-child) {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}
+.team-member-type-3:hover{
+  .description-box{
+    .content-wrapper{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+.team-member-type-3:hover:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.team-member-type-3:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all .3s ease-in-out;
+}

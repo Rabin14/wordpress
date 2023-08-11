@@ -1,0 +1,27 @@
+@import "sidebar/footer-sidebar";
+
+:root {
+  --footer-background-color: #232323;
+}
+
+footer {
+  background-color: var(--footer-background-color);
+  height: auto;
+  width: 100%;
+  padding: 75px 0;
+}
+
+.footer-parallax {
+  max-height: 50vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+}
+
+//debug
+.footer-spacing {
+  position: relative;
+  z-index: 1;
+}

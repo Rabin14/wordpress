@@ -1,0 +1,83 @@
+.page-header {
+  .page-header-inner {
+    .breadcrumbs-inner {
+      height: 100%;
+      padding: 0 15px;
+      display: flex;
+      .current-page-title {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 75px;
+        font-weight: 600;
+        @media(max-width: $lg) {
+          font-size: 48px;
+        }
+        @media(max-width: $md) {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+        @media(max-width: $sm) {
+          font-size: 22px;
+        }
+      }
+      .breadcrumbs-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .delimiter {
+          margin: 0 15px;
+          font-size: 8px;
+          line-height: 1;
+          opacity: 0.7;
+          padding-bottom: 3px;
+        }
+        li {
+          position: relative;
+          z-index: 100;
+          line-height: 1;
+        }
+        a, .bread-current {
+          line-height: 1;
+          font-family: var(--primary-font);
+          font-size: 13px;
+          font-weight: 400;
+          opacity: 0.7;
+          transition: all .3s ease-in-out;
+        }
+        a:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.default-page-header {
+  .page-header-inner {
+    .breadcrumbs-inner {
+      .current-page-title {
+        color: $white;
+      }
+      .delimiter {
+        color: $white;
+      }
+      a, .bread-current {
+        color: $white;
+      }
+    }
+  }
+}
+
+.simple-page-header {
+  border-bottom: 1px solid var(--default-border);
+  .page-header-inner {
+    .breadcrumbs-inner {
+      .delimiter {
+        color: var(--heading-color);
+      }
+      a, .bread-current {
+        color: var(--heading-color);
+      }
+    }
+  }
+}

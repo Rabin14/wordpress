@@ -1,0 +1,37 @@
+.service-type-5 {
+  .number-wrapper {
+    min-width: 100px;
+    @media(max-width: $sm) {
+     min-width: 80px;
+    }
+    .number {
+      font-size: 64px;
+      font-family: var(--primary-font);
+      line-height: 1;
+      color: var(--secondary-color);
+      font-weight: 700;
+      margin-right: 10px;
+      @media(max-width: $sm) {
+        margin-right: 5px;
+        font-size: 48px;
+      }
+    }
+  }
+  .content-wrapper {
+    .title {
+      margin-bottom: 10px;
+      color: $white;
+      font-weight: 600;
+      @media(max-width: $sm) {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    }
+    .content {
+      max-width: 300px;
+      @media(max-width: $sm) {
+        max-width: 100%;
+      }
+    }
+  }
+}

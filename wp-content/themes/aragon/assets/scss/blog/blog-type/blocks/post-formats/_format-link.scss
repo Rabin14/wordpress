@@ -1,0 +1,98 @@
+.format-link {
+  padding: 5px;
+  .post-inner {
+    background: $white;
+    position: relative;
+    height: 420px;
+    padding: 50px;
+    border: 5px solid var(--default-border);
+    @media(max-width: $sm){
+      padding: 25px;
+      height: 350px;
+    }
+    .content-wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      .content-wrapper-inner {
+        .category-list {
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          line-height: 1;
+          a {
+            text-transform: uppercase;
+            font-family: var(--primary-font);
+            font-size: 10px;
+            color: var(--heading-color);
+            font-weight: 600;
+            letter-spacing: 1.5px;
+          }
+          .delimiter {
+            margin: 0 10px;
+            font-size: 8px;
+            color: var(--heading-color);
+            padding-bottom: 2px;
+          }
+        }
+        .post-title {
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+          .link-icon {
+            margin-right: 15px;
+            color: var(--primary-color);
+            font-size: 22px;
+            line-height: 1;
+            @media(max-width: $sm){
+              margin-right: 10px;
+            }
+          }
+          a {
+            text-decoration: underline;
+            color: var(--primary-color);
+            letter-spacing: 0.3px;
+            font-size: 22px;
+          }
+        }
+        .excerpt-wrapper {
+          font-size: 14px;
+          margin-top: 15px;
+          padding-bottom: 15px;
+          margin-bottom: 20px;
+          border-bottom: 1px solid var(--default-border);
+        }
+        .info {
+          display: flex;
+          line-height: 1;
+          align-items: center;
+          text-transform: uppercase;
+          font-size: 10px;
+          color: var(--heading-color);
+          font-weight: 500;
+          letter-spacing: 2px;
+          p {
+            opacity: 0.6;
+            .delimiter {
+              margin-right: 15px;
+              color: var(--heading-color);
+              padding-bottom: 2px;
+            }
+          }
+          .author {
+            a {
+              opacity: 0.6;
+              color: var(--heading-color);
+            }
+            a:hover {
+              opacity: 1;
+            }
+          }
+        }
+        a {
+          transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
